@@ -1,4 +1,4 @@
-package leetcode.zerototen;
+package leetcode.a1to10;
 
 import java.math.BigDecimal;
 

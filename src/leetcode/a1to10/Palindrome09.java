@@ -1,4 +1,4 @@
-package leetcode.zerototen;
+package leetcode.a1to10;
 
 /**
  * @Description : 回文数
