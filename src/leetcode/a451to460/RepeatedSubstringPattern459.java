@@ -78,14 +78,14 @@ public class RepeatedSubstringPattern459 {
         //将s从中间为起始点 i 为字串周期
         for (int i = len / 2; i >= 1; i--) {
 
-
+            ///没有余数被i整除，这种情况i的长度可能就是子串的长度
             if (len % i == 0) {
                 boolean pass = true;
                 //获取子串
                 String h = s.substring(0, i);
 
                 for (int j = len / i; j > 1; j--) {
-                    //如果子串不相等
+                    //如果子串们不相等
                     if (!h.equals(s.substring(i * (j - 1), i * j))) {
                         pass = false;
                         break;
