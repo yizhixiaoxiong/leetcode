@@ -27,18 +27,7 @@ public class Test {
 //            System.out.println(s);
 //        }
 
-        String a = " acab car";
-        String b = " acab car";
-        System.out.println(a.compareTo(b) == 0);
 
-        Map<Integer,String> map = new HashMap<>();
-        for (int i = 4; i >=0; i--) {
-            map.put(i, String.valueOf(i));
-        }
-
-        for (int i = 0; i <= 4; i++) {
-            System.out.println(map.get(i));
-        }
     }
 
 }
